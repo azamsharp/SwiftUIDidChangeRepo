@@ -11,6 +11,11 @@ import Foundation
 struct Post: Codable {
     let title: String
     let body: String
+<<<<<<< HEAD
+    let postId: Int
+    let dateUpdated: String 
+=======
     let postId: Int 
     let dateCreated: String 
+>>>>>>> 396d273be592016149df28afa360935885eea09c
 }
