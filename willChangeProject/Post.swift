@@ -11,5 +11,6 @@ import Foundation
 struct Post: Codable {
     let title: String
     let body: String
-    let postId: Int 
+    let postId: Int
+    let dateUpdated: String 
 }
