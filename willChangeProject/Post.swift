@@ -12,4 +12,5 @@ struct Post: Codable {
     let title: String
     let body: String
     let postId: Int 
+    let dateCreated: String 
 }
